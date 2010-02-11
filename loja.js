@@ -69,7 +69,7 @@ function hidinput(n,v){
 
 function comprar(){
   ff='<form target="pagseguro" method="post" action="https://pagseguro.uol.com.br/security/webpagamentos/webpagto.aspx">'
-  ff+=hidinput('email_cobranca','suporte@lojamodelo.com.br')+
+  ff+=hidinput('email_cobranca',email_cobranca)+
       hidinput('tipo','CP')+
       hidinput('moeda','BRL')+
       hidinput('tipo_frete','EN')
